@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:padding="15dp">
+    <TextView
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Israeli, Israel"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/cardBackgroud"
+        android:id="@+id/person_name_header"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardBackgroud"
+        android:padding="15dp"
+        android:elevation="4dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/edit_button"
+            android:text="@string/edit"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/remove_button"
+            android:text="@string/remove"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:text="Male"
+        android:id="@+id/gender_dialog"/>
+
+
+    <TextView
+        android:text="@string/birth_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp"
+        />
+    <TextView
+        android:id="@+id/birth_date_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/is_death"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/death_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardBackgroud"
+            android:padding="10dp"
+            android:elevation="4dp" />
+        <TextView
+            android:id="@+id/death_date_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardBackgroud"
+            android:padding="10dp"
+            android:elevation="4dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:padding="10dp"
+        android:text="Relatives :"
+        android:background="@color/cardBackgroud"
+        android:elevation="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="5dp"
+        android:text="(Long click to Edit/Delete)"
+        android:background="@color/cardBackgroud"
+        android:elevation="2dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/cardBackgroud"
+        android:layout_weight="1"
+        android:id="@+id/relatives"
+        android:elevation="2dp">
+
+    </ListView>
+
+
+
+</LinearLayout>

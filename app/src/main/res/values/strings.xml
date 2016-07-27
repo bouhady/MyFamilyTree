@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyFamilyTree</string>
+    <string name="action_settings">Settings</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="is_alive">Is Alive?</string>
+    <string name="add_new_person">Add New Person</string>
+    <string name="death_date">Death Date</string>
+    <string name="gender">Gender</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Ramove</string>
+    <string name="remove_all">Remove all</string>
+    <string name="pesron">Person</string>
+    <string name="person_name">Person Name</string>
+    <string name="reletive">Relative</string>
+    <string name="relationship">Relationship</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="add_new_relationship">Add New Relationship</string>
+    <string name="find_relationship_path">Find Relationship Path</string>
+    <string name="empty_list_path">(Empty List/Path)</string>
+    <string-array name="gender_values">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

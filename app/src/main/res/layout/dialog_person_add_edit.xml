@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:padding="15dp">
+    <TextView
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/add_new_person"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/cardBackgroud"
+        />
+    <EditText
+        android:id="@+id/first_name_dialog"
+        android:inputType="textAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstname"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:background="@color/cardBackgroud"
+        />
+    <EditText
+        android:id="@+id/last_name_dialog"
+        android:inputType="textAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="@string/lastname"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="@string/gender" />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:entries="@array/gender_values"
+                android:id="@+id/gender_dialog">
+
+            </Spinner>
+        </LinearLayout>
+
+
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/birth_date_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp"
+
+        android:hint="@string/birth_date">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/is_alive_check_box"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/is_alive"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/death_date_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardBackgroud"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:hint="@string/death_date"
+        >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardBackgroud"
+        android:padding="15dp"
+        android:elevation="4dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/ok_button"
+            android:text="@android:string/ok"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/cancel_button"
+            android:text="@android:string/cancel"/>
+        </LinearLayout>
+
+</LinearLayout>
