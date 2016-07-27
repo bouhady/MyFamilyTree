@@ -13,13 +13,13 @@ import android.widget.ListView;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 
-import bouhady.myfamilytree.UI.Processes.AddPersonProcess;
-import bouhady.myfamilytree.UI.Processes.RelationshipPathProcess;
-import bouhady.myfamilytree.UI.Processes.AddRelationshipProcess;
-import bouhady.myfamilytree.UI.ListViewTools.PersonListCursorAdapterBuilder;
-import bouhady.myfamilytree.UI.ListViewTools.PersonViewHolder;
-import bouhady.myfamilytree.UI.Callbacks.ProcessDoneListener;
-import bouhady.myfamilytree.UI.PersonDetailsActivity;
+import bouhady.myfamilytree.ui.Processes.AddPersonProcess;
+import bouhady.myfamilytree.ui.Processes.RelationshipPathProcess;
+import bouhady.myfamilytree.ui.Processes.AddRelationshipProcess;
+import bouhady.myfamilytree.ui.ListViewTools.PersonListCursorAdapterBuilder;
+import bouhady.myfamilytree.ui.ListViewTools.PersonViewHolder;
+import bouhady.myfamilytree.ui.Callbacks.ProcessDoneListener;
+import bouhady.myfamilytree.ui.PersonDetailsActivity;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private ListView mainPersonList;

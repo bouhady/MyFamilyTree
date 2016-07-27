@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.ListViewTools;
+package bouhady.myfamilytree.ui.ListViewTools;
 
 import android.content.Context;
 import android.database.Cursor;

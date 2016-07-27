@@ -23,8 +23,9 @@ import bouhady.myfamilytree.Models.Relative;
  */
 public class FamilyTreeContentProvider extends ContentProvider {
 
-
-    // RELATIONSHIP : relationships insert/update/DELETE only, get not supported
+    // PERSON : add , delete,update,query - all the person list/part
+    // PERSON_SPECIFIC : add , delete,update,query - just one specific person
+    // RELATIONSHIP : single relationships insert/update/DELETE only, get not supported
     // LIST_RELATIONSHIPS : Relationships/pid/ - get list of Relationship for person ,update/INSERT not supprted/ delete supported
     // INDIRECT_RELATIONSHIP : Relationship/full/pid/pid - full path between relatives get only
 
@@ -35,7 +36,6 @@ public class FamilyTreeContentProvider extends ContentProvider {
 
     static final int PERSON = 200;
     static final int PERSON_SPECIFIC = 201;
-
     static final int RELATIONSHIP = 202;
     static final int LIST_RELATIONSHIPS = 203;
     static final int INDIRECT_RELATIONSHIP = 204;

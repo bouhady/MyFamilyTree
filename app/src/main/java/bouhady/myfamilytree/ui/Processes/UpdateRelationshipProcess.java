@@ -1,12 +1,12 @@
-package bouhady.myfamilytree.UI.Processes;
+package bouhady.myfamilytree.ui.Processes;
 
 import android.content.Context;
 
 import bouhady.myfamilytree.Models.RelationshipSetupParams;
 import bouhady.myfamilytree.Models.RelationshipTypeEnum;
 import bouhady.myfamilytree.Repositories.RelationshipRepository;
-import bouhady.myfamilytree.UI.Callbacks.ProcessDoneListener;
-import bouhady.myfamilytree.UI.Dialogs.RelationshipTypeSelectDialog;
+import bouhady.myfamilytree.ui.Callbacks.ProcessDoneListener;
+import bouhady.myfamilytree.ui.Dialogs.RelationshipTypeSelectDialog;
 
 /**
  * Created by Yaniv Bouhadana on 25/07/2016.

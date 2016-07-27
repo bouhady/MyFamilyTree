@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Callbacks;
+package bouhady.myfamilytree.ui.Callbacks;
 
 /**
  * Created by Yaniv Bouhadana on 25/07/2016.

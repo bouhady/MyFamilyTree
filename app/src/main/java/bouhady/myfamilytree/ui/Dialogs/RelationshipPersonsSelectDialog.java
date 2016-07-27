@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Dialogs;
+package bouhady.myfamilytree.ui.Dialogs;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import bouhady.myfamilytree.Models.Person;
 import bouhady.myfamilytree.R;
-import bouhady.myfamilytree.UI.Callbacks.ActionListener;
-import bouhady.myfamilytree.UI.ListViewTools.PersonListCursorAdapterBuilder;
+import bouhady.myfamilytree.ui.Callbacks.ActionListener;
+import bouhady.myfamilytree.ui.ListViewTools.PersonListCursorAdapterBuilder;
 
 /**
  * Created by Yaniv Bouhadana on 25/07/2016.

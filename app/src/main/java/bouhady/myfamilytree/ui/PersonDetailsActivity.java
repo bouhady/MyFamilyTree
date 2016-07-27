@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI;
+package bouhady.myfamilytree.ui;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -21,11 +21,11 @@ import bouhady.myfamilytree.Models.Relative;
 import bouhady.myfamilytree.R;
 import bouhady.myfamilytree.Repositories.PersonRepository;
 import bouhady.myfamilytree.Repositories.RelationshipRepository;
-import bouhady.myfamilytree.UI.Callbacks.ProcessDoneListener;
-import bouhady.myfamilytree.UI.ListViewTools.PersonCursorAdapter;
-import bouhady.myfamilytree.UI.ListViewTools.PersonViewHolder;
-import bouhady.myfamilytree.UI.Processes.AddPersonProcess;
-import bouhady.myfamilytree.UI.Processes.UpdateRelationshipProcess;
+import bouhady.myfamilytree.ui.Callbacks.ProcessDoneListener;
+import bouhady.myfamilytree.ui.ListViewTools.PersonCursorAdapter;
+import bouhady.myfamilytree.ui.ListViewTools.PersonViewHolder;
+import bouhady.myfamilytree.ui.Processes.AddPersonProcess;
+import bouhady.myfamilytree.ui.Processes.UpdateRelationshipProcess;
 
 public class PersonDetailsActivity extends AppCompatActivity implements View.OnCreateContextMenuListener, AdapterView.OnItemClickListener {
     private Person currentPerson;

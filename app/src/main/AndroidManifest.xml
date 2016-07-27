@@ -23,7 +23,7 @@
             android:name=".Data.FamilyTreeContentProvider"
             android:authorities="bouhady.myfamilytree.app" />
 
-        <activity android:name=".UI.PersonDetailsActivity"></activity>
+        <activity android:name=".ui.PersonDetailsActivity"></activity>
     </application>
 
 </manifest>

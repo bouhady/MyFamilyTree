@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Processes;
+package bouhady.myfamilytree.ui.Processes;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -6,8 +6,8 @@ import android.view.WindowManager;
 
 import bouhady.myfamilytree.Repositories.PersonRepository;
 import bouhady.myfamilytree.Models.Person;
-import bouhady.myfamilytree.UI.Dialogs.AddNewPersonDialog;
-import bouhady.myfamilytree.UI.Callbacks.ProcessDoneListener;
+import bouhady.myfamilytree.ui.Dialogs.AddNewPersonDialog;
+import bouhady.myfamilytree.ui.Callbacks.ProcessDoneListener;
 
 /**
  * Created by Yaniv Bouhadana on 25/07/2016.

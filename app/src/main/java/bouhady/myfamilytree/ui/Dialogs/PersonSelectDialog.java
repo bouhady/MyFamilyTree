@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Dialogs;
+package bouhady.myfamilytree.ui.Dialogs;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 import bouhady.myfamilytree.R;
 import bouhady.myfamilytree.Models.Person;
-import bouhady.myfamilytree.UI.Callbacks.ActionListener;
-import bouhady.myfamilytree.UI.ListViewTools.PersonCursorAdapter;
-import bouhady.myfamilytree.UI.ListViewTools.PersonListCursorAdapterBuilder;
-import bouhady.myfamilytree.UI.ListViewTools.PersonViewHolder;
+import bouhady.myfamilytree.ui.Callbacks.ActionListener;
+import bouhady.myfamilytree.ui.ListViewTools.PersonCursorAdapter;
+import bouhady.myfamilytree.ui.ListViewTools.PersonListCursorAdapterBuilder;
+import bouhady.myfamilytree.ui.ListViewTools.PersonViewHolder;
 
 /**
  * Created by Yaniv Bouhadana on 20/07/2016.

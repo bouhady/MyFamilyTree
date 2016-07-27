@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.CostumViews;
+package bouhady.myfamilytree.ui.CostumViews;
 
 import android.text.InputFilter;
 import android.text.Spanned;

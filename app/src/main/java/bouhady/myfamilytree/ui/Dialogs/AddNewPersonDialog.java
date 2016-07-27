@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Dialogs;
+package bouhady.myfamilytree.ui.Dialogs;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -12,7 +12,7 @@ import android.widget.Spinner;
 
 import bouhady.myfamilytree.R;
 import bouhady.myfamilytree.Models.Person;
-import bouhady.myfamilytree.UI.CostumViews.InputFilterMinMax;
+import bouhady.myfamilytree.ui.CostumViews.InputFilterMinMax;
 
 /**
  * Created by Yaniv Bouhadana on 19/07/2016.

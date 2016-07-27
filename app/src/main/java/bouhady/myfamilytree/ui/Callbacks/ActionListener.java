@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Callbacks;
+package bouhady.myfamilytree.ui.Callbacks;
 
 import bouhady.myfamilytree.Models.Person;
 

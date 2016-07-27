@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Processes;
+package bouhady.myfamilytree.ui.Processes;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,12 +6,12 @@ import android.database.Cursor;
 
 import bouhady.myfamilytree.Repositories.RelationshipRepository;
 import bouhady.myfamilytree.Models.Person;
-import bouhady.myfamilytree.UI.Dialogs.PersonSelectDialog;
-import bouhady.myfamilytree.UI.Dialogs.RelationshipPersonsSelectDialog;
-import bouhady.myfamilytree.UI.Callbacks.ActionListener;
-import bouhady.myfamilytree.UI.ListViewTools.PersonCursorAdapter;
-import bouhady.myfamilytree.UI.ListViewTools.PersonListCursorAdapterBuilder;
-import bouhady.myfamilytree.UI.PersonDetailsActivity;
+import bouhady.myfamilytree.ui.Dialogs.PersonSelectDialog;
+import bouhady.myfamilytree.ui.Dialogs.RelationshipPersonsSelectDialog;
+import bouhady.myfamilytree.ui.Callbacks.ActionListener;
+import bouhady.myfamilytree.ui.ListViewTools.PersonCursorAdapter;
+import bouhady.myfamilytree.ui.ListViewTools.PersonListCursorAdapterBuilder;
+import bouhady.myfamilytree.ui.PersonDetailsActivity;
 
 /**
  * Created by Yaniv Bouhadana on 26/07/2016.

@@ -1,4 +1,4 @@
-package bouhady.myfamilytree.UI.Dialogs;
+package bouhady.myfamilytree.ui.Dialogs;
 
 import android.app.Dialog;
 import android.content.Context;

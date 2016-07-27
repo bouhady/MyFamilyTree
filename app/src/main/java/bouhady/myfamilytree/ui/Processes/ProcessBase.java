@@ -1,8 +1,8 @@
-package bouhady.myfamilytree.UI.Processes;
+package bouhady.myfamilytree.ui.Processes;
 
 import android.content.Context;
 
-import bouhady.myfamilytree.UI.Callbacks.ProcessDoneListener;
+import bouhady.myfamilytree.ui.Callbacks.ProcessDoneListener;
 
 /**
  * Created by Yaniv Bouhadana on 27/07/2016.
